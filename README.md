@@ -27,8 +27,6 @@ vous avez à votre disposition tous les outils que nous avons vu dans le cours :
 Ce sujet vous laisse énormément de liberté. Le sujet à la base vous donne des éléments mais vous êtes libre d'extrapoler des éléments 
 supplémentaires sur le site.
 
-Veillez à ce que vos fichiers HTML et CSS passe le W3C validator : https://validator.w3.org/
-
 Les critères d'évaluation sont nombreux puisque le sujet vous laisse énormément de liberté :
 - Le projet devra utiliser une organisation adaptée (pas tous les fichiers dans le même répertoire)
 - Utilisation correcte des notions vues en cours
@@ -37,16 +35,5 @@ Les critères d'évaluation sont nombreux puisque le sujet vous laisse énormém
 - Propositions d'évolution du site
 ....
 
-Au jour où vous aller débuter sur le sujet, tous les cours n'auront pas été donnés. Nous allons encore aborder les cours suivants :
-- Initiation au SEO et à l'accessibilité
-- Programmation javascript pour le web
-
 Ces sujets pourront aussi être intégrés au projet à partir du moment où nous les aurons abordés et donnerons lieu à des contraintes 
 supplémentaires.
-
-Je vous propose de rendre le projet le 22 mars 2022, soit 1 mois après le dernier cours sur les bases de la programmation. Vous pourrez 
-intégrer ce projet à votre répertoire GIT personnel.
-
-Bonne chance,
-
-Philippe Schlegel
