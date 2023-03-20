@@ -1,0 +1,230 @@
+/* Parametres Generaux */
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+/* Header & Navbar */
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('https://www.10wallpaper.com/wallpaper/1366x768/1606/Mens_evening_sea_running-2016_Sport_HD_Wallpaper_1366x768.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 1px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: #FD5353;
+}
+
+.nav-links ul li a:hover {
+    text-decoration: none;
+    color: #FEBABA;
+}
+
+.text-box {
+    padding-top: 100px;
+    width: 90%;
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 50px;
+    color: aliceblue!important;
+}
+
+.text-box p {
+    font-size: 14px;
+    margin: 10px 0 40px;
+    color: #FD5353;
+}
+
+.text-box .fa-solid {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+/* LES SECTIONS: PARAMETRES GLOBAUX */
+
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #B13A3A;
+    padding-bottom: 30px;
+}
+
+p {
+    color: #581D1D;
+    font-size: 14px;
+    padding: 0;
+}
+
+.row {
+    /* Proprietes pour definir l'agencement de la div */
+    /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.idee,
+.populaire,
+.event {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.idee-col,
+.populaire-col,
+.event-col {
+    flex-basis: 20%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.idee-col h3,
+.populaire-col h3,
+.event-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.idee-col p,
+.populaire-col p,
+.event-col p {
+    text-align: center;
+}
+
+
+/* ANIMATIONS ON IMAGES */
+
+.row img {
+    transition: all .2s ease-in-out;
+}
+
+.row img:hover {
+    transform: scale(1.1);
+}
+
+
+/* PREMIERE SECTION: IDEE D'ACTIVITE */
+
+.idee-col img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* DEUXIEME SECTION: LES PLUS POPULAIRES */
+
+.populaire-col img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* TROISIEME SECTION: EVENEMENTS A VENIR */
+
+.event-col img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* PARAMETRES DU FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15rem;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('https://i.imgur.com/eiyswyG.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.footer .column h4 {
+    color: #FD5353;
+    font-size: 1.5rem;
+}
+
+.footer .column ul {
+    list-style: none;
+}
+
+.footer .column a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer .column a:hover {
+    text-decoration: none;
+    color: #FEBABA;
+}
+
+
+/* MEDIA QUERIES */
+
+@media(max-width: 700px) {
+    .text-box h1 {
+        font-size: 22px;
+    }
+    .nav-links ul li a {
+        font-size: 0.8rem;
+    }
+    .footer .column h4 {
+        font-size: 1rem;
+    }
+    .footer .column a {
+        font-size: 0.6rem;
+    }
+}
